@@ -1,0 +1,156 @@
+body {
+    font-family: 'Gruppo';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Charcoal Black */
+    color: #fff; /* White text color */
+}
+
+/* Navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px; /* Reduce the space between navbar links */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Main content styles */
+.content {
+    margin-top: 20px; /* Adjust based on your navbar height */
+    padding: 20px;
+    text-align: center; /* Center the content */
+}
+
+.intro-paragraph {
+    max-width: 600px; /* Set the maximum width of the paragraph */
+    margin: 0 auto; /* Center the paragraph within the available width */
+}
+
+/* Additional styles for circular profile picture */
+.profile-picture img {
+    border-radius: 50%;
+    width: 200px; /* Adjust the size of the circular image as needed */
+    height: 200px;
+    object-fit: cover; /* Ensures the image retains its aspect ratio */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Social Icons styles */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon-link {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Adjustments for the right alignment of pages */
+.nav-links {
+    display: flex;
+    gap: 10px; /* Adjust the space between navbar links */
+}
+
+/* Center the navbar links */
+nav a:not(#logo) {
+    margin: 0 10px; /* Adjust the space between navbar links */
+}
+
+
+
+/* Additional styles for Work Experience Page */
+.experience {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 5px;
+}
+
+
+
+.company-logo {
+    max-width: 100%; /* Ensure the logo doesn't exceed its original size */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.experience-box {
+    background-color: rgba(255, 255, 255, 0.073); /* Light grey with transparency */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; /* Center the box */
+
+}
+
+.experience-box p{
+    font-family: 'Gruppo';
+    font-size: 22px;
+}
+
+.experience-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Gruppo';
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 5px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-box {
+    background-color: rgba(255, 255, 255, 0.073);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.project-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
